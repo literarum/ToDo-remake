@@ -43,8 +43,12 @@
         font-size: .5em;
     }
 
-    .add-new .form input::placeholder {
+    .add-new .form input {
         font-size: .6em;
+    }
+
+    .add-new .form input::placeholder {
+        font-size: .8em;
     }
 
     footer {
