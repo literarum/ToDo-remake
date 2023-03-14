@@ -92,11 +92,6 @@ body {
     padding: .4em;
 }
 
-.new__list ol li .li-img img:hover {
-    opacity: 1;
-    transition: opacity .2s ease-in-out;
-}
-
 .add-new {
     background-color: #fff;
     box-shadow: 0 0 1px rgba(0,0,0, .05);
@@ -138,22 +133,27 @@ body {
     color: rgb(140, 140, 140);
 }
 
+.add-new .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
 .add-new .buttons button {
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    width: auto;
+    padding: 1em;
     background-color: rgb(40 40 40 / 65%);
     color: #fff;
     border: none;
     border-radius: 3px;
-    padding: .8em 1.8em;
     margin-top: 1em;
     cursor: pointer;
     font-size: 1em;
     transition: transform .2s ease-in-out;
     transition: box-shadow .2s ease-in-out;
-    transition: background-color .2s ease-in-out;
-}
-
-.add-new .buttons button:hover {
-    background-color: rgb(40 40 40 / 80%);
     transition: background-color .2s ease-in-out;
 }
 

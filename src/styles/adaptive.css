@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1200px) {
+    .add-new .buttons button:hover {
+        background-color: rgb(40 40 40 / 80%);
+        transition: background-color .2s ease-in-out;
+    }
+
+    .new__list ol li .li-img img:hover {
+        opacity: 1;
+        transition: opacity .2s ease-in-out;
+    }
+  }
+
+@media only screen and (max-width: 575.98px) {
+    .main h1 {
+        font-size: 2em;
+    }
+    
+    .main h2 {
+        font-size: .6em;
+    }
+
+    .list .empty img {
+        width: 6em;
+    }
+
+    .list h3 {
+        font-size: .8em;
+    }
+
+    .new__list ol li {
+        font-size: .6em;
+    }
+
+    .add-new-head > h3 {
+        font-size: .7em;
+    }
+
+    .add-new .buttons {
+        font-size: .7em;
+        justify-content: space-around;
+    }
+
+    .add-new .form label {
+        font-size: .5em;
+    }
+
+    .add-new .form input::placeholder {
+        font-size: .6em;
+    }
+
+    footer {
+        font-size: .5em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .list h3 {
+        font-size: .45em;
+    }
+
+    .list .empty img {
+        width: 5em;
+    }
+}
