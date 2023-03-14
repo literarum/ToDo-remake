@@ -96,7 +96,7 @@ function checkEmptyList() {
         const emptyListElement = `
           <div class="empty">
             <img src="./src/img/todo.png" alt="empty" />
-            <h3>Список дел пуст</h3>
+            <h3>Ваш список дел пуст</h3>
           </div>
         `;
         divEmpty.insertAdjacentHTML('afterbegin', emptyListElement);
