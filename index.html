@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>To-Do приложение</h1>
+        <h2>cписок задач на сегодня</h2>
+      </div>
+
+      <div class="list">
+        <div class="empty">
+          <img src="./src/img/list.png" alt="empty" />
+          <h3>Список дел пуст</h3>
+        </div>
+        <div class="new__list">
+          <ol id="tasksList"></ol>
+        </div>
+      </div>
+
+      <div class="add-new">
+        <div class="add-new-head">
+          <h3>Добавить новую задачу</h3>
+        </div>
+        <div class="form">
+          <form action="#" id="form">
+            <input type="text" id="input" placeholder="Текст задачи..." autocomplete="off" id="taskInput"/>
+            <label for="#input"
+              >Что делаем, сколько времени тратим, какой результат
+              получаем...</label
+            >
+          </form>
+          <div class="button">
+            <button id="add">Добавить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; Powered and designed by Gleb Kurushin</footer>
+
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>

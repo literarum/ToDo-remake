@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+*,
+*::before,
+*::after,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 2em 0;
+}
+
+.main h1 {
+    font-weight: 100;
+    font-size: 3.2em;
+}
+
+.main h2 {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.list {
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0,0,0, .05);
+}
+
+.list .empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+.list .empty img {
+    width: 2em;
+}
+
+.list h3 {
+    font-weight: 100;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin: .5em;
+}
+
+.list .new__list, ol {
+    width: 100%;
+    list-style-type: none;
+    border-top: .25px solid rgba(187, 187, 187, 0.5);
+}
+
+.new__list ol li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 1em;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.new__list ol li .li-img {
+    display: flex;
+    align-items: center;
+}
+
+.new__list ol li .li-img img {
+    align-self: center;
+    width: 1.6em;
+    cursor: pointer;
+    margin: 0.4em;
+    opacity: .3;
+    transition: opacity .2s ease-in-out;
+    background-color: rgba(0, 0, 0, .07);
+    border-radius: 3px;
+    padding: .4em;
+}
+
+.new__list ol li .li-img img:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+}
+
+.add-new {
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0,0,0, .05);
+    margin-top: 1em;
+}
+
+.add-new-head > h3 {
+    font-weight: 100;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, .05);
+    padding: .5em 1em;
+    border-bottom: .5px solid rgba(187, 187, 187, 0.5);
+}
+
+.add-new .form {
+    padding: 1em;
+}
+
+.add-new .form input {
+    width: 100%;
+    padding: .5em;
+    border: .5px solid rgba(187, 187, 187, 0.5);
+    border-radius: 3px;
+    outline: none;
+}
+
+.add-new .form input::placeholder {
+    color: rgba(140, 140, 140, 1);
+    transition: color .2s ease-in-out;
+}
+
+.add-new .form input:focus::placeholder {
+    color: rgba(140, 140, 140, .2);
+    transition: color .2s ease-in-out;
+}
+
+.add-new .form label {
+    font-size: .8em;
+    color: rgb(140, 140, 140);
+}
+
+.add-new .button button {
+    background-color: rgba(0, 13, 255, .8);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: .8em 1.8em;
+    margin-top: 1em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+
+.add-new .button button:hover {
+    background-color: rgba(0, 13, 255, 1);
+    transition: background-color .2s ease-in-out;
+}
+
+.add-new .button button:active {
+    transform: translateY(1px);
+    box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.5);
+    transition: transform .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    font-size: .7em;
+    margin-top: 10em;
+    margin-bottom: 1em;
+}
+
+.none {
+    display: none !important;
+}
+
+.done {
+    color: rgb(216, 216, 216);
+    text-decoration: line-through;
+}
