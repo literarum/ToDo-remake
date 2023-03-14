@@ -139,7 +139,7 @@ body {
 }
 
 .add-new .buttons button {
-    background-color: rgba(0, 13, 255, .8);
+    background-color: rgb(40 40 40 / 80%);;
     color: #fff;
     border: none;
     border-radius: 3px;
