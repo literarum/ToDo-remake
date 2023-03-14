@@ -37,7 +37,6 @@
 
     .add-new .buttons {
         font-size: .7em;
-        justify-content: space-around;
     }
 
     .add-new .form label {
@@ -60,5 +59,9 @@
 
     .list .empty img {
         width: 5em;
+    }
+
+    .add-new .buttons {
+        justify-content: space-around;
     }
 }
