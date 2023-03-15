@@ -114,10 +114,11 @@
 
     .add-new .buttons button {
         height: 3em;
-        width: auto;
+        width: 50%;
         padding: 1em;
         margin-top: 1.7em;
         font-size: 1.3em;
+        justify-content: space-around;
     }
 
     .add-new {
