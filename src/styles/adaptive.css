@@ -29,12 +29,19 @@
         font-size: .6em;
     }
 
-    .list .empty img {
-        width: 6em;
+    .list .empty {
+        height: 15em;
     }
 
-    .list h3 {
-        font-size: .8em;
+    .list .empty img {
+        width: 6em;
+        margin-top: -2em;
+    }
+
+    .list .empty h3 {
+        width: 100%;
+        font-size: .7em;
+        text-align: center;
     }
 
     .new__list ol li {
